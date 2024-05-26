@@ -1,6 +1,9 @@
 <template>
   <q-page class="flex flex-center">
     <div>
+      <div>
+        AAA 123
+      </div>
       <q-btn
         label="Print"
         @click="setPrint"
@@ -30,6 +33,8 @@ import { defineComponent } from 'vue'
 import { BluetoothLe } from '@capacitor-community/bluetooth-le';
 import { Device } from '@capacitor/device'
 import { Geolocation } from '@capacitor/geolocation'
+// import { Plugins, CameraResultType, CameraSource, StatusBarStyle, HapticsImpactStyle } from '@capacitor/core'
+// const { Geolocation, Camera, Haptics, Device, Toast, Modals, StatusBar, SplashScreen, Share, LocalNotifications, PushNotifications } = Plugins
 
 export default defineComponent({
   name: 'IndexPage',
@@ -80,6 +85,7 @@ export default defineComponent({
       });
     },
     getCurrentPosition() {
+      this.log('Geo start...');
       Geolocation.getCurrentPosition().then(newPosition => {
         this.log(`Current ${newPosition}`, newPosition)
         // position.value = newPosition
