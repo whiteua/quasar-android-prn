@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Quasar Android Prn</string>
+    <string name="title_activity_main">Quasar Android Prn</string>
+    <string name="package_name">win.betbooster.test</string>
+    <string name="custom_url_scheme">win.betbooster.test</string>
+</resources>

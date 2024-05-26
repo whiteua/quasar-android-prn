@@ -1,0 +1,17 @@
+{
+  "name": "quasar-android-prn",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "author": "Tomy Bet <tomybet.com@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "@capacitor-community/bluetooth-le": "^6.0.0",
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/app": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/device": "^6.0.0",
+    "@capacitor/geolocation": "^6.0.0",
+    "@ionic/pwa-elements": "^3.3.0"
+  }
+}
